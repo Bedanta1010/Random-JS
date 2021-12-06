@@ -25,9 +25,9 @@ if (a == 'r' || a == 'rock') {
 // If the user chooses paper the following code will be executed
 else if (a == 'p' || a == 'paper') {
     if (numGen == 0) {
-        console.log("\nYou won. The computer chose rock as well as you also chose paper.");
+        console.log("\nYou won. The computer chose rock while you chose paper.");
     } else if (numGen == 1) {
-        console.log("\nYou tied. The computer chose paper while you chose paper.");
+        console.log("\nYou tied. The computer chose paper while you also chose paper.");
     } else if (numGen == 2) {
         console.log("\nYou lost. The computer chose scissors while you chose paper.");
     }
@@ -35,11 +35,11 @@ else if (a == 'p' || a == 'paper') {
 // If the user chooses scissor the following code will be executed
 else if (a == 's' || a == 'scissor') {
     if (numGen == 0) {
-        console.log("\nYou lost. The computer chose rock as well as you also choscissor.");
+        console.log("\nYou lost. The computer chose rock while chose scissor.");
     } else if (numGen == 1) {
         console.log("\nYou won. The computer chose paper while you chose scissor.");
     } else if (numGen == 2) {
-        console.log("\nYou tied. The computer chose scissors while you chose scissor.");
+        console.log("\nYou tied. The computer chose scissors while you also chose scissor.");
     }
 } 
 // If any other value is given, it will show the following error code
